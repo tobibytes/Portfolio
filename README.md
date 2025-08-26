@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Oluwatobi Olajide — Portfolio
 
-## Getting Started
+A minimal, content-first personal site. Clean typography, no heavy effects. Built to be easy to read, easy to change, and easy to ship.
 
-First, run the development server:
+## Stack
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS (light, utility-first styling)
 
-```bash
+## Local development
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+Then open http://localhost:3000.
+
+## Build
+```
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content outline
+- About: first-principles approach, Microsoft internship notes
+- Selected Projects: BitTorrent client (Rust), Redis clone (Python), Talvra
+- What I’m into right now: systems work in Rust/Python, clean CLIs, turning ideas into running software
+- Find me online: GitHub @tobibytes (LinkedIn and personal site linked from GitHub)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Notes
+- Old animated components and fancy UI have been removed in favor of text-first sections.
+- If you want to re-introduce components or sections later, add them under `app/` and keep styling minimal.
